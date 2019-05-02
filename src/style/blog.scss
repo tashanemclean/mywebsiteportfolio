@@ -1,0 +1,53 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .new-blog-link {
+        position: absolute;
+        right: 0;
+
+        a {
+            font-size: 3em;
+            cursor: pointer;
+            color: $dark-teal;
+            margin-right: 30px;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                color: $green
+            }
+        }
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+
+        a {
+            text-decoration: none;
+            color: $dark-teal;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                color: $green;
+            }
+        }
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        .featured-image-wrapper {
+            img {
+                margin: 15px 0px;
+                width: 100%;
+                height: 350px;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }
+    }
+}

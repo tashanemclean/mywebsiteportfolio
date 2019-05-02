@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #0c0c0c;
+    color: $offwhite;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
