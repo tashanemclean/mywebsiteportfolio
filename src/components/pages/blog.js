@@ -53,13 +53,6 @@ class Blog extends Component {
             }
     }
 
-    renderAllBlogItems(){
-        this.setState({
-            currentPage: this.state.currentPage
-        })
-        axios.get(`https://tashanemclean.devcamp.space/portfolio/portfolio_blogs?page=${this.state.currentPage}`, {withCredentials:true})
-    }
-
     getBlogItems(){
         this.setState({
             currentPage: this.state.currentPage + 1
@@ -81,7 +74,6 @@ class Blog extends Component {
 
     componentWillMount(){
         this.getBlogItems();
-        this.renderAllBlogItems();
     }
 
     componentWillUnmount(){
