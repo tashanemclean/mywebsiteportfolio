@@ -122,7 +122,10 @@ export default class App extends Component {
               )}
               />
 
-              <Route exact path="/portfolio/:slug" component={PortfolioDetail} />
+              <Route 
+              exact path="/portfolio/:slug" 
+              component={PortfolioDetail} 
+              />
               <Route component={NoMatch} />
             </Switch>
           </div>
