@@ -7,7 +7,9 @@ import { faTrash,
     faEnvelopeOpen, 
     faMobileAlt, 
     faFileAlt,
-    faHandPointRight
+    faHandPointRight,
+    faEnvelope,
+    faLockOpen
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -22,7 +24,9 @@ return library.add(faTrash,
     faEnvelopeOpen, 
     faMobileAlt,
     faFileAlt,
-    faHandPointRight
+    faHandPointRight,
+    faEnvelope,
+    faLockOpen
     );
 };
 
